@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "MJ406541")(type "KiCad")(uri "${KIPRJMOD}/MJ406541.kicad_sym")(options "")(descr ""))
+  (lib (name "PM6C-200XF")(type "KiCad")(uri "${KIPRJMOD}/PM6C-200XF.kicad_sym")(options "")(descr ""))
+)
