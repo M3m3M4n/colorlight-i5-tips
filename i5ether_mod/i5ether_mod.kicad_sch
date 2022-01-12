@@ -2346,7 +2346,7 @@
     (property "Value" "4700p" (id 1) (at 149.86 138.43 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (id 2) (at 144.78 138.1252 0)
+    (property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" (id 2) (at 144.78 138.1252 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 148.59 137.16 0)
@@ -2509,7 +2509,7 @@
     (property "Value" "4700p" (id 1) (at 149.86 133.35 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (id 2) (at 144.78 133.0452 0)
+    (property "Footprint" "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder" (id 2) (at 144.78 133.0452 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 148.59 132.08 0)
@@ -2635,7 +2635,7 @@
   (symbol (lib_id "PM6C-200XF:PM6C-2004F") (at 143.51 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bfa46546-c392-46f2-9dd1-54c070a9f47d)
-    (property "Reference" "L1" (id 0) (at 143.51 52.07 0))
+    (property "Reference" "T1" (id 0) (at 143.51 52.07 0))
     (property "Value" "PM6C-2004F" (id 1) (at 143.51 54.61 0))
     (property "Footprint" "PM6C-200XF:PM6C-2004F_SOP48" (id 2) (at 133.35 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2850,10 +2850,10 @@
       (reference "C10") (unit 1) (value "1000p") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/8fadaaf1-6657-4bb6-bf18-fe2c1d6327ef"
-      (reference "C11") (unit 1) (value "4700p") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+      (reference "C11") (unit 1) (value "4700p") (footprint "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder")
     )
     (path "/6235df39-6fe4-4ff0-a6f7-da05e5c190f5"
-      (reference "C12") (unit 1) (value "4700p") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+      (reference "C12") (unit 1) (value "4700p") (footprint "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder")
     )
     (path "/efe23ee3-88d7-4a07-85ed-8af6a1b1b716"
       (reference "J1") (unit 1) (value "Conn_02x15_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Horizontal")
@@ -2863,9 +2863,6 @@
     )
     (path "/5d60c08b-b737-4800-a755-ec72e7fb79d3"
       (reference "J3") (unit 1) (value "1-406541-1") (footprint "MJ406541:1-406541-1")
-    )
-    (path "/bfa46546-c392-46f2-9dd1-54c070a9f47d"
-      (reference "L1") (unit 1) (value "PM6C-2004F") (footprint "PM6C-200XF:PM6C-2004F_SOP48")
     )
     (path "/98624091-3add-4002-a75e-32916797ae00"
       (reference "R1") (unit 1) (value "75") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -2890,6 +2887,9 @@
     )
     (path "/24b50098-aeac-4460-91e0-b7c4b60de347"
       (reference "R8") (unit 1) (value "75") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/bfa46546-c392-46f2-9dd1-54c070a9f47d"
+      (reference "T1") (unit 1) (value "PM6C-2004F") (footprint "PM6C-200XF:PM6C-2004F_SOP48")
     )
   )
 )

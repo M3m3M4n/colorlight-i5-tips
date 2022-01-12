@@ -1,6 +1,6 @@
 (kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
   (symbol "PM6C-2004F" (in_bom yes) (on_board yes)
-    (property "Reference" "L" (id 0) (at -5.08 34.29 0)
+    (property "Reference" "T" (id 0) (at -5.08 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PM6C-2004F" (id 1) (at 0 31.75 0)
