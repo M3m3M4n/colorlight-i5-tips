@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/hoang/Desktop/colorlight-i5-tips/i5ether_mod/i5ether_mod.kicad_sch</source>
-    <date>Thu Jan 13 10:52:44 2022</date>
+    <date>Thu Jan 13 12:44:05 2022</date>
     <tool>Eeschema 6.0.0-d3dd2cf0fa~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,7 +25,7 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>0.1u</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -34,7 +34,7 @@
       <tstamps>f65b4837-c8dc-443c-adc2-6a1b9c9b68d3</tstamps>
     </comp>
     <comp ref="C2">
-      <value>0.1u</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -43,7 +43,7 @@
       <tstamps>e488c582-5146-448b-adb4-acc101d8a1f7</tstamps>
     </comp>
     <comp ref="C3">
-      <value>0.1u</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -52,7 +52,7 @@
       <tstamps>80b23f95-a870-43d5-b932-8a062609c207</tstamps>
     </comp>
     <comp ref="C4">
-      <value>0.1u</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -61,7 +61,7 @@
       <tstamps>b97b3f5b-7f9a-4604-818b-0baa380767f6</tstamps>
     </comp>
     <comp ref="C5">
-      <value>0.1u</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -70,7 +70,7 @@
       <tstamps>07ac2b37-2665-4f68-b2c0-78cccf116fa9</tstamps>
     </comp>
     <comp ref="C6">
-      <value>0.1u</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -79,7 +79,7 @@
       <tstamps>0a619ce1-4474-4bed-82a1-6df589c26061</tstamps>
     </comp>
     <comp ref="C7">
-      <value>0.1u</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -88,7 +88,7 @@
       <tstamps>bfa0707d-03b7-47e8-9f01-6ad733ac6d28</tstamps>
     </comp>
     <comp ref="C8">
-      <value>0.1u</value>
+      <value>100n</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
@@ -131,42 +131,6 @@
       <property name="Sheetfile" value="i5ether_mod.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6235df39-6fe4-4ff0-a6f7-da05e5c190f5</tstamps>
-    </comp>
-    <comp ref="H1">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="i5ether_mod.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>584970dc-5538-419b-b998-8d8d4ada798f</tstamps>
-    </comp>
-    <comp ref="H2">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="i5ether_mod.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>6a8c9545-2ebc-4800-b1d5-30a9f4b64728</tstamps>
-    </comp>
-    <comp ref="H3">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="i5ether_mod.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>4f5a593d-b109-4ea1-9106-1a00245b0fa7</tstamps>
-    </comp>
-    <comp ref="H4">
-      <value>MountingHole</value>
-      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
-      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="i5ether_mod.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5d415a7e-4f6a-4136-aabb-40423e249c07</tstamps>
     </comp>
     <comp ref="J1">
       <value>Conn_02x15_Odd_Even</value>
@@ -376,17 +340,20 @@
         <pin num="10" name="SHIELD" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Mechanical" part="MountingHole">
-      <description>Mounting Hole without connection</description>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
       <docs>~</docs>
       <footprints>
-        <fp>MountingHole*</fp>
+        <fp>MountingHole*Pad*</fp>
       </footprints>
       <fields>
         <field name="Reference">H</field>
-        <field name="Value">MountingHole</field>
+        <field name="Value">MountingHole_Pad</field>
         <field name="Datasheet">~</field>
       </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
     </libpart>
     <libpart lib="PM6C-200XF" part="PM6C-2004F">
       <fields>
